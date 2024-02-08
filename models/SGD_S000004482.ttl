@@ -3,14 +3,14 @@
 @prefix SGD: <http://identifiers.org/sgd/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix ns1: <http://purl.org/pav/> .
-@prefix ns2: <http://geneontology.org/lego/> .
+@prefix ns1: <http://geneontology.org/lego/> .
+@prefix ns2: <http://purl.org/pav/> .
 @prefix ns3: <https://w3id.org/biolink/vocab/> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-ns2:evidence a owl:AnnotationProperty .
+ns1:evidence a owl:AnnotationProperty .
 
 <http://geneontology.org/lego/hint/layout/x> a owl:AnnotationProperty .
 
@@ -26,162 +26,162 @@ dct:created a owl:AnnotationProperty .
 
 dct:dateAccepted a owl:AnnotationProperty .
 
-ns1:providedBy a owl:AnnotationProperty .
+ns2:providedBy a owl:AnnotationProperty .
 
 <http://model.geneontology.org/SGD_S000004482> a owl:Ontology ;
-    ns2:modelstate "production" ;
+    ns1:modelstate "production" ;
     dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
     dc:date "2013-08-07" ;
     dc:title "YML020W (SGD:S000004482)" ;
     dct:created "2013-08-07" ;
-    dct:dateAccepted "2024-01-24" ;
-    ns1:providedBy "http://www.yeastgenome.org" ;
+    dct:dateAccepted "2024-02-01" ;
+    ns2:providedBy "http://www.yeastgenome.org" ;
     owl:versionIRI <http://model.geneontology.org/SGD_S000004482> ;
     ns3:in_taxon obo:NCBITaxon_559292 .
 
-<http://model.geneontology.org/SGD_S000004482/12eb1afc-cc49-4b35-9f6a-3bd3476689dc> a ECO:0000307,
+<http://model.geneontology.org/SGD_S000004482/4343f493-2407-47d2-ad47-cd2318492f32> a ECO:0000307,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
     dc:date "2013-08-07" ;
     dc:source "GO_REF:0000015" ;
     dct:created "2013-08-07" ;
-    ns1:providedBy "http://www.yeastgenome.org" .
+    ns2:providedBy "http://www.yeastgenome.org" .
 
-<http://model.geneontology.org/SGD_S000004482/314a71a8-1bfe-4c4a-bfc1-8e9e9d2889da> a GO:0003674,
-        owl:NamedIndividual ;
-    obo:RO_0002333 <http://model.geneontology.org/SGD_S000004482/616a343c-8758-49a1-8a75-e0be370254c2> ;
-    dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
-    dc:date "2013-08-07" ;
-    dct:created "2013-08-07" ;
-    dct:dateAccepted "2024-01-24" ;
-    ns1:providedBy "http://www.yeastgenome.org" .
-
-<http://model.geneontology.org/SGD_S000004482/885f83a5-f53f-4190-98fa-29314cc0f95b> a ECO:0000307,
+<http://model.geneontology.org/SGD_S000004482/741d25d2-59ec-410b-9d3c-c51bacb7648e> a ECO:0000307,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
     dc:date "2013-08-07" ;
     dc:source "GO_REF:0000015" ;
     dct:created "2013-08-07" ;
-    ns1:providedBy "http://www.yeastgenome.org" .
+    ns2:providedBy "http://www.yeastgenome.org" .
 
-<http://model.geneontology.org/SGD_S000004482/973fc48c-da15-4edd-88ea-296eec85a6a3> a SGD:S000004482,
-        owl:NamedIndividual ;
-    obo:RO_0002432 <http://model.geneontology.org/SGD_S000004482/6bfe4e7e-b717-4b14-a44f-3af444598e05> ;
-    dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
-    dc:date "2013-08-07" ;
-    dct:created "2013-08-07" ;
-    dct:dateAccepted "2024-01-24" ;
-    ns1:providedBy "http://www.yeastgenome.org" .
-
-<http://model.geneontology.org/SGD_S000004482/b7bbbe8c-441a-4b6a-ae18-d50ca4613fc8> a ECO:0000307,
+<http://model.geneontology.org/SGD_S000004482/c0d42b2a-75bf-4871-8534-1268051d3988> a ECO:0000307,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
     dc:date "2013-08-07" ;
     dc:source "GO_REF:0000015" ;
     dct:created "2013-08-07" ;
-    ns1:providedBy "http://www.yeastgenome.org" .
+    ns2:providedBy "http://www.yeastgenome.org" .
 
-<http://model.geneontology.org/SGD_S000004482/c08c87f0-a6c5-4b93-89c3-9b52f4f1359a> a ECO:0000307,
+<http://model.geneontology.org/SGD_S000004482/d0c9e6bb-531e-46ca-ac13-307ff38bf908> a SGD:S000004482,
+        owl:NamedIndividual ;
+    obo:RO_0002432 <http://model.geneontology.org/SGD_S000004482/d4d01c7f-4291-465c-aa38-45395a0bfeb4> ;
+    dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
+    dc:date "2013-08-07" ;
+    dct:created "2013-08-07" ;
+    dct:dateAccepted "2024-02-01" ;
+    ns2:providedBy "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/SGD_S000004482/d487a519-eb6a-4493-8207-ae9924f65f9d> a GO:0003674,
+        owl:NamedIndividual ;
+    obo:RO_0002333 <http://model.geneontology.org/SGD_S000004482/3448a859-d7f0-437d-9be8-8a34dad90a24> ;
+    dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
+    dc:date "2013-08-07" ;
+    dct:created "2013-08-07" ;
+    dct:dateAccepted "2024-02-01" ;
+    ns2:providedBy "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/SGD_S000004482/dff5ae87-f6a6-4ea7-a053-4ba755260634> a ECO:0000307,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
     dc:date "2013-08-07" ;
     dc:source "GO_REF:0000015" ;
     dct:created "2013-08-07" ;
-    ns1:providedBy "http://www.yeastgenome.org" .
+    ns2:providedBy "http://www.yeastgenome.org" .
 
 obo:BFO_0000050 a owl:ObjectProperty .
 
 obo:RO_0002432 a owl:ObjectProperty .
 
-<http://model.geneontology.org/SGD_S000004482/004b90d8-69e0-4bf6-a967-a3d785625cd0> a GO:0003674,
+<http://model.geneontology.org/SGD_S000004482/1d5558a7-ee1d-46fd-ac1d-cf8c0d77205a> a GO:0008150,
         owl:NamedIndividual ;
-    obo:BFO_0000050 <http://model.geneontology.org/SGD_S000004482/20080683-9205-4005-b08c-08c08de0589b> ;
-    obo:RO_0002333 <http://model.geneontology.org/SGD_S000004482/9bbcfe0e-7071-4f08-b2c3-c557821c639c> ;
     dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
     dc:date "2013-08-07" ;
     dct:created "2013-08-07" ;
-    dct:dateAccepted "2024-01-24" ;
-    ns1:providedBy "http://www.yeastgenome.org" .
+    dct:dateAccepted "2024-02-01" ;
+    ns2:providedBy "http://www.yeastgenome.org" .
 
-<http://model.geneontology.org/SGD_S000004482/20080683-9205-4005-b08c-08c08de0589b> a GO:0008150,
+<http://model.geneontology.org/SGD_S000004482/3448a859-d7f0-437d-9be8-8a34dad90a24> a SGD:S000004482,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
     dc:date "2013-08-07" ;
     dct:created "2013-08-07" ;
-    dct:dateAccepted "2024-01-24" ;
-    ns1:providedBy "http://www.yeastgenome.org" .
+    dct:dateAccepted "2024-02-01" ;
+    ns2:providedBy "http://www.yeastgenome.org" .
 
-<http://model.geneontology.org/SGD_S000004482/616a343c-8758-49a1-8a75-e0be370254c2> a SGD:S000004482,
+<http://model.geneontology.org/SGD_S000004482/3a53039f-3343-4014-a869-2b9a69ef4826> a SGD:S000004482,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
     dc:date "2013-08-07" ;
     dct:created "2013-08-07" ;
-    dct:dateAccepted "2024-01-24" ;
-    ns1:providedBy "http://www.yeastgenome.org" .
+    dct:dateAccepted "2024-02-01" ;
+    ns2:providedBy "http://www.yeastgenome.org" .
 
-<http://model.geneontology.org/SGD_S000004482/6bfe4e7e-b717-4b14-a44f-3af444598e05> a GO:0005575,
+<http://model.geneontology.org/SGD_S000004482/4130c590-191f-4418-ae2c-109292d5188c> a GO:0003674,
         owl:NamedIndividual ;
+    obo:BFO_0000050 <http://model.geneontology.org/SGD_S000004482/1d5558a7-ee1d-46fd-ac1d-cf8c0d77205a> ;
+    obo:RO_0002333 <http://model.geneontology.org/SGD_S000004482/3a53039f-3343-4014-a869-2b9a69ef4826> ;
     dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
     dc:date "2013-08-07" ;
     dct:created "2013-08-07" ;
-    dct:dateAccepted "2024-01-24" ;
-    ns1:providedBy "http://www.yeastgenome.org" .
+    dct:dateAccepted "2024-02-01" ;
+    ns2:providedBy "http://www.yeastgenome.org" .
 
-<http://model.geneontology.org/SGD_S000004482/9bbcfe0e-7071-4f08-b2c3-c557821c639c> a SGD:S000004482,
+<http://model.geneontology.org/SGD_S000004482/d4d01c7f-4291-465c-aa38-45395a0bfeb4> a GO:0005575,
         owl:NamedIndividual ;
     dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
     dc:date "2013-08-07" ;
     dct:created "2013-08-07" ;
-    dct:dateAccepted "2024-01-24" ;
-    ns1:providedBy "http://www.yeastgenome.org" .
+    dct:dateAccepted "2024-02-01" ;
+    ns2:providedBy "http://www.yeastgenome.org" .
 
 obo:RO_0002333 a owl:ObjectProperty .
 
 [] a owl:Axiom ;
-    ns2:evidence <http://model.geneontology.org/SGD_S000004482/c08c87f0-a6c5-4b93-89c3-9b52f4f1359a> ;
+    ns1:evidence <http://model.geneontology.org/SGD_S000004482/c0d42b2a-75bf-4871-8534-1268051d3988> ;
     dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
     dc:date "2013-08-07" ;
     dct:created "2013-08-07" ;
-    dct:dateAccepted "2024-01-24" ;
-    ns1:providedBy "http://www.yeastgenome.org" ;
+    dct:dateAccepted "2024-02-01" ;
+    ns2:providedBy "http://www.yeastgenome.org" ;
     rdfs:comment "SGD:S000004482  RO:0002331 GO:0008150 GO_REF:0000015 ECO:0000307   2002-11-26 SGD  id=GOA:2113656841|contributor-id=https://orcid.org/0000-0002-7010-0264|creation-date=2013-08-07T08:39:22|modification-date=2013-08-07T08:39:22" ;
     owl:annotatedProperty obo:BFO_0000050 ;
-    owl:annotatedSource <http://model.geneontology.org/SGD_S000004482/004b90d8-69e0-4bf6-a967-a3d785625cd0> ;
-    owl:annotatedTarget <http://model.geneontology.org/SGD_S000004482/20080683-9205-4005-b08c-08c08de0589b> .
+    owl:annotatedSource <http://model.geneontology.org/SGD_S000004482/4130c590-191f-4418-ae2c-109292d5188c> ;
+    owl:annotatedTarget <http://model.geneontology.org/SGD_S000004482/1d5558a7-ee1d-46fd-ac1d-cf8c0d77205a> .
 
 [] a owl:Axiom ;
-    ns2:evidence <http://model.geneontology.org/SGD_S000004482/12eb1afc-cc49-4b35-9f6a-3bd3476689dc> ;
+    ns1:evidence <http://model.geneontology.org/SGD_S000004482/741d25d2-59ec-410b-9d3c-c51bacb7648e> ;
     dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
     dc:date "2013-08-07" ;
     dct:created "2013-08-07" ;
-    dct:dateAccepted "2024-01-24" ;
-    ns1:providedBy "http://www.yeastgenome.org" ;
-    rdfs:comment "SGD:S000004482  RO:0002331 GO:0008150 GO_REF:0000015 ECO:0000307   2002-11-26 SGD  id=GOA:2113656841|contributor-id=https://orcid.org/0000-0002-7010-0264|creation-date=2013-08-07T08:39:22|modification-date=2013-08-07T08:39:22" ;
-    owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/SGD_S000004482/004b90d8-69e0-4bf6-a967-a3d785625cd0> ;
-    owl:annotatedTarget <http://model.geneontology.org/SGD_S000004482/9bbcfe0e-7071-4f08-b2c3-c557821c639c> .
-
-[] a owl:Axiom ;
-    ns2:evidence <http://model.geneontology.org/SGD_S000004482/b7bbbe8c-441a-4b6a-ae18-d50ca4613fc8> ;
-    dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
-    dc:date "2013-08-07" ;
-    dct:created "2013-08-07" ;
-    dct:dateAccepted "2024-01-24" ;
-    ns1:providedBy "http://www.yeastgenome.org" ;
-    rdfs:comment "SGD:S000004482  RO:0002432 GO:0005575 GO_REF:0000015 ECO:0000307   2002-11-26 SGD  id=GOA:2113656839|contributor-id=https://orcid.org/0000-0002-7010-0264|creation-date=2013-08-07T08:39:22|modification-date=2013-08-07T08:39:22" ;
-    owl:annotatedProperty obo:RO_0002432 ;
-    owl:annotatedSource <http://model.geneontology.org/SGD_S000004482/973fc48c-da15-4edd-88ea-296eec85a6a3> ;
-    owl:annotatedTarget <http://model.geneontology.org/SGD_S000004482/6bfe4e7e-b717-4b14-a44f-3af444598e05> .
-
-[] a owl:Axiom ;
-    ns2:evidence <http://model.geneontology.org/SGD_S000004482/885f83a5-f53f-4190-98fa-29314cc0f95b> ;
-    dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
-    dc:date "2013-08-07" ;
-    dct:created "2013-08-07" ;
-    dct:dateAccepted "2024-01-24" ;
-    ns1:providedBy "http://www.yeastgenome.org" ;
+    dct:dateAccepted "2024-02-01" ;
+    ns2:providedBy "http://www.yeastgenome.org" ;
     rdfs:comment "SGD:S000004482  RO:0002327 GO:0003674 GO_REF:0000015 ECO:0000307   2002-11-26 SGD  id=GOA:2113656840|contributor-id=https://orcid.org/0000-0002-7010-0264|creation-date=2013-08-07T08:39:22|modification-date=2013-08-07T08:39:22" ;
     owl:annotatedProperty obo:RO_0002333 ;
-    owl:annotatedSource <http://model.geneontology.org/SGD_S000004482/314a71a8-1bfe-4c4a-bfc1-8e9e9d2889da> ;
-    owl:annotatedTarget <http://model.geneontology.org/SGD_S000004482/616a343c-8758-49a1-8a75-e0be370254c2> .
+    owl:annotatedSource <http://model.geneontology.org/SGD_S000004482/d487a519-eb6a-4493-8207-ae9924f65f9d> ;
+    owl:annotatedTarget <http://model.geneontology.org/SGD_S000004482/3448a859-d7f0-437d-9be8-8a34dad90a24> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/SGD_S000004482/4343f493-2407-47d2-ad47-cd2318492f32> ;
+    dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
+    dc:date "2013-08-07" ;
+    dct:created "2013-08-07" ;
+    dct:dateAccepted "2024-02-01" ;
+    ns2:providedBy "http://www.yeastgenome.org" ;
+    rdfs:comment "SGD:S000004482  RO:0002432 GO:0005575 GO_REF:0000015 ECO:0000307   2002-11-26 SGD  id=GOA:2113656839|contributor-id=https://orcid.org/0000-0002-7010-0264|creation-date=2013-08-07T08:39:22|modification-date=2013-08-07T08:39:22" ;
+    owl:annotatedProperty obo:RO_0002432 ;
+    owl:annotatedSource <http://model.geneontology.org/SGD_S000004482/d0c9e6bb-531e-46ca-ac13-307ff38bf908> ;
+    owl:annotatedTarget <http://model.geneontology.org/SGD_S000004482/d4d01c7f-4291-465c-aa38-45395a0bfeb4> .
+
+[] a owl:Axiom ;
+    ns1:evidence <http://model.geneontology.org/SGD_S000004482/dff5ae87-f6a6-4ea7-a053-4ba755260634> ;
+    dc:contributor "https://orcid.org/0000-0002-7010-0264" ;
+    dc:date "2013-08-07" ;
+    dct:created "2013-08-07" ;
+    dct:dateAccepted "2024-02-01" ;
+    ns2:providedBy "http://www.yeastgenome.org" ;
+    rdfs:comment "SGD:S000004482  RO:0002331 GO:0008150 GO_REF:0000015 ECO:0000307   2002-11-26 SGD  id=GOA:2113656841|contributor-id=https://orcid.org/0000-0002-7010-0264|creation-date=2013-08-07T08:39:22|modification-date=2013-08-07T08:39:22" ;
+    owl:annotatedProperty obo:RO_0002333 ;
+    owl:annotatedSource <http://model.geneontology.org/SGD_S000004482/4130c590-191f-4418-ae2c-109292d5188c> ;
+    owl:annotatedTarget <http://model.geneontology.org/SGD_S000004482/3a53039f-3343-4014-a869-2b9a69ef4826> .
 
